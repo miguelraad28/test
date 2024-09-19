@@ -13,6 +13,7 @@ function App() {
         "https://api.mangadex.org/at-home/server/885f6206-7713-4c3d-be91-2e53ac17e2a0"
       )
       .then(({ data }) => {
+        console.log(data);
         const url = data.baseUrl;
         const hash = data.chapter.hash;
         const fileName = data.chapter.data[4];
@@ -24,7 +25,7 @@ function App() {
 
   return (
     <div className="container">
-      <img src="https://cmdxd98sb0x3yprd.mangadex.network/data/5f4b6735fff5c0dab71a08854c72aa31/1-4ce7c5bd3f24af3527348d79f177df2df3171c1cb9fad695c5368d50672595b9.jpg" />
+      <img src="https://cmdxd98sb0x3yprd.mangadex.network/data/5f4b6735fff5c0dab71a08854c72aa31/12-53b72b726cfc466c234777d931c11f7da74bc17b1df3cfd942ad752dad5ff49b.jpg" />
       <img src={page} />
     </div>
   );
