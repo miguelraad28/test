@@ -10,7 +10,24 @@ function App() {
   useEffect(() => {
     axios
       .get(
-        "https://api.mangadex.org/at-home/server/885f6206-7713-4c3d-be91-2e53ac17e2a0"
+        "https://api.mangadex.org/at-home/server/885f6206-7713-4c3d-be91-2e53ac17e2a0",
+        {
+          headers: {
+            Accept: " /",
+            "Accept-Encoding": " gzip, deflate, br",
+            "Accept-Language": " en-US,en;q=0.9",
+            Connection: " keep-alive",
+            Host: "api.mangadex.org",
+            Origin: "https://mangadex.org/",
+            Priority: "u=3, i",
+            Referer: "https://mangadex.org/",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "same-site",
+            "User-Agent":
+              "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15",
+          },
+        }
       )
       .then(({ data }) => {
         console.log(data);
