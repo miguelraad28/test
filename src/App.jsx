@@ -27,6 +27,7 @@ function App() {
     <div className="container">
       <img src="https://cmdxd98sb0x3yprd.mangadex.network/data/5f4b6735fff5c0dab71a08854c72aa31/12-53b72b726cfc466c234777d931c11f7da74bc17b1df3cfd942ad752dad5ff49b.jpg" />
       <img src={page} />
+      <img src="https://mangadex.org/covers/1d2967dd-d157-4cbb-84ed-ea7cf7140d14/1a3f4936-b317-4baa-ba52-d406725c98cd.jpg" />
     </div>
   );
 }
