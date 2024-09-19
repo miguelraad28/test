@@ -12,22 +12,22 @@ function App() {
       .get(
         "https://api.mangadex.org/at-home/server/885f6206-7713-4c3d-be91-2e53ac17e2a0",
         {
-          headers: {
-            'Access-Control-Allow-Origin': '*',
-            Accept: " /",
-            "Accept-Encoding": " gzip, deflate, br",
-            "Accept-Language": " en-US,en;q=0.9",
-            Connection: " keep-alive",
-            Host: "api.mangadex.org",
-            Origin: "https://mangadex.org/",
-            Priority: "u=3, i",
-            Referer: "https://mangadex.org/",
-            "Sec-Fetch-Dest": "empty",
-            "Sec-Fetch-Mode": "cors",
-            "Sec-Fetch-Site": "same-site",
-            "User-Agent":
-              "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15",
-          },
+          // headers: {
+          //   "Access-Control-Allow-Origin": "*",
+          //   Accept: " /",
+          //   "Accept-Encoding": " gzip, deflate, br",
+          //   "Accept-Language": " en-US,en;q=0.9",
+          //   Connection: " keep-alive",
+          //   Host: "api.mangadex.org",
+          //   Origin: "https://mangadex.org/",
+          //   Priority: "u=3, i",
+          //   Referer: "https://mangadex.org/",
+          //   "Sec-Fetch-Dest": "empty",
+          //   "Sec-Fetch-Mode": "cors",
+          //   "Sec-Fetch-Site": "same-site",
+          //   "User-Agent":
+          //     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15",
+          // },
         }
       )
       .then(({ data }) => {
@@ -45,7 +45,8 @@ function App() {
     <div className="container">
       <img src="https://cmdxd98sb0x3yprd.mangadex.network/data/5f4b6735fff5c0dab71a08854c72aa31/12-53b72b726cfc466c234777d931c11f7da74bc17b1df3cfd942ad752dad5ff49b.jpg" />
       <img src={page} />
-      <img src="https://mangadex.org/covers/1d2967dd-d157-4cbb-84ed-ea7cf7140d14/1a3f4936-b317-4baa-ba52-d406725c98cd.jpg" />
+      <h1>COVER:</h1>
+      <img src="https://mangadex.org/covers/b802b061-8166-42d0-b2e2-7679c121cfb3/3c1ba692-edc3-41f8-af4f-f3b5f3f848b9.png.512.jpg" />
     </div>
   );
 }
