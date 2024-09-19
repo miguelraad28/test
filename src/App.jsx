@@ -13,6 +13,7 @@ function App() {
         "https://api.mangadex.org/at-home/server/885f6206-7713-4c3d-be91-2e53ac17e2a0",
         {
           headers: {
+            'Access-Control-Allow-Origin': '*',
             Accept: " /",
             "Accept-Encoding": " gzip, deflate, br",
             "Accept-Language": " en-US,en;q=0.9",
