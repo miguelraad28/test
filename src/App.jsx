@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className="container">
-      {/* <img src="https://uploads.mangadex.org/covers/5a371d62-f10a-4caf-8158-dcfdb6954368/588230b7-eaa2-439a-8b54-8c0c994fdf1b.png.512.jpg" /> */}
+      <img src="https://cmdxd98sb0x3yprd.mangadex.network/data/5f4b6735fff5c0dab71a08854c72aa31/1-4ce7c5bd3f24af3527348d79f177df2df3171c1cb9fad695c5368d50672595b9.jpg" />
       <img src={page} />
     </div>
   );
